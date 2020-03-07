@@ -35,7 +35,8 @@ Feature: add Employee
       | Santa      | Moroz     | 1          |
 
   Scenario: Delete Employee
-  * an Employer
+
   * I am on the Benefits Dashboard page
-  * I click the Action X
-  * the employee should be deleted
+  * user click delete button
+  * the user validate employee deletegit status
+
